@@ -1,0 +1,30 @@
+.navcontainer {
+  display: flex;
+  /* justify-content: left; */
+  align-items: center;
+  position: inherit;
+  gap: 20%;
+}
+.component {
+  position: inherit;
+  color: #000;
+  text-decoration: none;
+}
+.image {
+  background-color: whitesmoke;
+  /* margin-right: 50px; */
+
+  height: 70px;
+  width: 70px;
+}
+.outercontainer {
+  display: flex;
+  position: sticky;
+  background-color: whitesmoke;
+  border-bottom: solid black 2px;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5rem calc((100vw - 750px) / 2) 0.5rem calc((100vw - 1250px) / 2);
+  z-index: 10;
+}

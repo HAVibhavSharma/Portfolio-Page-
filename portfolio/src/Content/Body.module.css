@@ -1,0 +1,26 @@
+.content {
+  text-align: justify;
+  width: 40%;
+  padding: 0.5rem calc((100vw - 1250px) / 2);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.header {
+  text-align: justify;
+  padding: 0.5rem calc((100vw - 1250px) / 2);
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 100vw;
+
+  justify-content: center;
+}
+.outercontainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}

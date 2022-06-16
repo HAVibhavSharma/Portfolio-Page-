@@ -1,13 +1,13 @@
-import "./App.css";
-import Button from "./utilities/Button";
+// import Button from "./utilities/Button";
+
+import Body from "./Content/Body";
 import NavBar from "./NavBar/NavBar";
-const navcomponents = ["about", "projects"];
+const navcomponents = ["PROJECTS", "TALKS", "BLOG", "CONTACT"];
 function App() {
   return (
     <>
       <NavBar navfields={navcomponents}></NavBar>
-      <div>this is a div</div>
-      <Button>Click me </Button>
+      <Body />
     </>
   );
 }
